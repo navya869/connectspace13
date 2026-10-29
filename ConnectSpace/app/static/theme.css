@@ -1,0 +1,99 @@
+body.light{
+  --bg:#f4f6fc;
+  --surface:#fff;
+  --surface2:#eef1fa;
+  --text:#20243a;
+  --muted:#6d748c;
+  --line:rgba(58,69,117,.12);
+  --blue:#5579ee;
+  --violet:#7864df;
+  --green:#21a98b;
+  --shadow:0 24px 70px rgba(48,57,102,.1);
+  background-image:radial-gradient(ellipse at 12% 2%,rgba(119,145,255,.13),transparent 38%),radial-gradient(ellipse at 90% 30%,rgba(180,147,255,.11),transparent 32%);
+}
+body.light .ambient{opacity:.12;filter:blur(110px)}
+body.light .ambient-a{background:#849aff}
+body.light .ambient-b{background:#bd9aff}
+body.light .brand-accent{color:#705de0}
+body.light .eyebrow,body.light .section-kicker{color:#6859cf}
+body.light .gradient-text{background-image:linear-gradient(95deg,#357cbf,#6f61df 65%,#a05dc9)}
+body.light .pulse-dot,body.light .live-dot{background:var(--green);box-shadow:0 0 0 5px #21a98b1c}
+body.light .meeting-preview{
+  background:linear-gradient(145deg,#fff,#f4f6ff);
+  border-color:#cdd4f2;
+  box-shadow:0 35px 90px rgba(54,63,118,.2);
+}
+body.light .preview-time{color:#717b98}
+body.light .person span{background:#22243bd9}
+body.light .floating-card{background:#fff;border-color:#e0e3f2}
+body.light .floating-card small{color:#737b94}
+body.light .mini-icon{background:#7864df18;color:#705de0}
+body.light .success-icon{background:#21a98b18;color:#168d74}
+body.light .quick-panel{background:linear-gradient(145deg,#ffffffd9,#f4f6ffeb)}
+body.light .quick-icon.purple{background:#7864df16;color:#705de0}
+body.light .quick-icon.blue{background:#5579ee16;color:#4167d1}
+body.light .quick-icon.green{background:#21a98b16;color:#168d74}
+body.light .text-action,body.light .empty-symbol{color:#6859cf}
+body.light .feature-icon{background:#7864df16;color:#705de0}
+body.light .modal-backdrop{background:rgba(32,37,63,.38)}
+body.light .modal{border-color:#e2e5f1}
+body.light .toast{background:#fff;color:#252942;border-color:#e0e3f2}
+body.light .meeting-shell{background:#f4f6fc;color:#20243a}
+body.light .meeting-header{border-bottom-color:#dfe3ef}
+body.light .room-info span{color:#6d748c}
+body.light .connection-pill{border-color:#dfe3ef}
+body.light .video-stage{background:#eef1f8;border-radius:14px;padding:12px}
+body.light .video-grid{border-radius:10px}
+body.light .video-tile{background:linear-gradient(145deg,#293858,#182238);border-color:#d6dced}
+body.light .video-tile video{background:#182238}
+body.light .stage-caption{color:#747b91}
+body.light .waiting-card{color:#69738c}
+body.light .waiting-card b{color:#252942}
+body.light .waiting-spinner{border-color:#d9def0;border-top-color:#7864df}
+body.light .side-panel{background:#fff;border-color:#dfe3ef}
+body.light .panel-tabs{border-bottom-color:#e5e7f0}
+body.light .panel-tab{color:#707891}
+body.light .panel-tab.active{color:#6654ce;border-bottom-color:#7864df}
+body.light .chat-empty{color:#7a8297}
+body.light .chat-message b{color:#6654ce}
+body.light .chat-message .message-time{color:#7e879d}
+body.light .chat-form{border-top-color:#e5e7f0}
+body.light .chat-form input,body.light .notes-panel textarea{background:#f4f6fb;border-color:#dfe3ef;color:#252942}
+body.light .notes-panel label{color:#535c75}
+body.light .meeting-controls{border-top-color:#dfe3ef}
+body.light .control-btn{background:#fff;border-color:#dfe3ef;color:#353b53}
+body.light .control-btn:hover{background:#f0f1fc}
+body.light .control-btn small{color:#737b91}
+body.light .control-btn.active{background:#fff0f2;border-color:#ee8995;color:#b83f53}
+body.light .recording .control-btn#recordBtn{background:#fff0f2;border-color:#ee8995}
+body.light .recording .control-btn#recordBtn>span{color:#d9465b}
+body.light .meeting-footnote{color:#778097}
+
+body.light .collaboration-visual{
+  background:linear-gradient(145deg,#fff,#f4f6ff);
+  border-color:#d7dcf2;
+  box-shadow:0 35px 90px rgba(54,63,118,.2);
+}
+body.light .idea-orbit{border-color:rgba(111,97,223,.2)}
+body.light .idea-orbit-b{border-color:rgba(64,147,194,.2)}
+body.light .idea-connections path{stroke:#aab3d9}
+body.light .idea-connections circle{fill:#7864df}
+body.light .idea-core{
+  background:radial-gradient(circle at 35% 25%,#fff 0%,#e8eaff 32%,#d7dcff 70%,#c5caff 100%);
+  border-color:#fff;
+  color:#6859cf;
+  box-shadow:0 0 42px rgba(120,100,223,.22),inset 0 0 22px rgba(120,100,223,.12);
+}
+body.light .idea-core small{color:#625e9d}
+body.light .node-avatar{border-color:#f8f9ff;box-shadow:0 5px 16px rgba(41,49,91,.18)}
+body.light .node-one .node-avatar{background:linear-gradient(145deg,#527bc3,#85b9d1)}
+body.light .node-two .node-avatar{background:linear-gradient(145deg,#7662bb,#c495ae)}
+body.light .node-three .node-avatar{background:linear-gradient(145deg,#358f80,#82c2a8)}
+body.light .node-label{color:#555c77}
+body.light .idea-chip{background:#fff;border-color:#e0e3f2;color:#555c77;box-shadow:0 8px 20px rgba(56,65,112,.1)}
+body.light .idea-footer{border-top-color:#e6e8f4;color:#727a93}
+body.light .idea-spark{color:#7864df}
+
+@media(prefers-reduced-motion:no-preference){
+  body,body.light .meeting-shell{transition:background-color .3s,color .3s}
+}
